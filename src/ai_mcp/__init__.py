@@ -1,2 +1,3 @@
+from .main import main as ai_mcp_main
 def main() -> None:
-    print("Hello from ai-mcp!")
+    ai_mcp_main()
