@@ -1,0 +1,17 @@
+[project]
+name = "ai-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "lujie.xu", email = "lujie.xu@okg.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+ai-mcp = "ai_mcp:main"
+
+[build-system]
+requires = ["uv_build>=0.8.3,<0.9.0"]
+build-backend = "uv_build"
